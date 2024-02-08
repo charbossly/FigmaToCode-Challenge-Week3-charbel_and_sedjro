@@ -5,7 +5,7 @@ import FooterBottom from "./parts/footerBottom";
 export default function index() {
   return (
     <div className="bg-lightGrayUi">
-      <FooterTop />
+      {/* <FooterTop /> */}
       <FooterBottom />
     </div>
   );
