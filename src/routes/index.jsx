@@ -5,6 +5,7 @@ import ButtonBlue from "../components/utils/buttons/button_blue";
 import About from "../components/sections/Presentation/About";
 import Stats from "../components/stats/Stats";
 import Team from "../components/sections/team/Team";
+import Free_trial from "../components/sections/callToAction/Free_trial";
 
 export default function index() {
   return (
@@ -12,6 +13,7 @@ export default function index() {
       <About />
       <Stats />
       <Team />
+      <Free_trial />
       <Grid3 />
       <WorkWithUs /> 
       {/* <ButtonBlue title="Become member" icon={true} /> */}
