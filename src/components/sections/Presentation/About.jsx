@@ -4,7 +4,7 @@ import Image from '../../../assets/imagePresent.png'
 
 const About = () => {
   return (
-    <div className=' container mx-auto border border-red-400'>
+    <div className=' max-w-screen-lg mx-auto border border-red-400'>
         <div className='flex flex-col sm:flex-row'>
             <div className=" border border-green-400 p-4 m-2  w-full sm:w-1/2">
                 <div className='flex flex-col'>
