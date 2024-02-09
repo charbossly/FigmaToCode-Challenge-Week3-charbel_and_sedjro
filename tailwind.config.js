@@ -4,13 +4,18 @@ export default {
   theme: {
     fontSize: {
       t14: "14px",
+      t16: "16px",
+      t18: "18px",
+      t24: "24px",
     },
 
     extend: {
       colors: {
+        blackBlueUi: "#252b42",
+        grayUi: "#737373",
+        blueUi: "#23a6f0",
         lightGrayUi: "#FAFAFA",
-        lightBlackUi: "#737373",
-        blueUi: "#737373",
+        redUi: "#e74040",
       },
     },
   },

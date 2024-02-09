@@ -1,0 +1,34 @@
+import React from "react";
+import ButtonBlue from "../../utils/buttons/button_blue";
+
+export default function index() {
+  const links = [
+    {
+      title: "Home",
+      route: "/",
+    },
+    { title: "Product", route: "/products" },
+    { title: "Pricing", route: "/pricing" },
+    { title: "Contact", route: "/about" },
+  ];
+  return (
+    <div className="max-w-screen-lg mx-auto flex gap-x-4 items-center p-4 py-8">
+      <h2 className="text-blackUi font-bold capitalize text-t24">Bandage</h2>
+      <ul className="flex-1 flex justify-start items-center gap-x-6 ml-12">
+        {links.map((elt) => {
+          return (
+            <li className="text-t16 text-grayUi font-medium">
+              <a href={elt.route}>{elt.title}</a>{" "}
+            </li>
+          );
+        })}
+      </ul>
+      <div className="flex-1 flex items-center justify-end gap-x-8 self-end">
+        <a href="" className="text-blueUi">
+          Login
+        </a>
+        <ButtonBlue title="Become a member" icon={true} />
+      </div>
+    </div>
+  );
+}
