@@ -4,12 +4,14 @@ import WorkWithUs from "../components/sections/callToAction/work_with_us";
 import ButtonBlue from "../components/utils/buttons/button_blue";
 import About from "../components/sections/Presentation/About";
 import Stats from "../components/stats/Stats";
+import Team from "../components/sections/team/Team";
 
 export default function index() {
   return (
     <>
       <About />
       <Stats />
+      <Team />
       <Grid3 />
       <WorkWithUs /> 
       {/* <ButtonBlue title="Become member" icon={true} /> */}

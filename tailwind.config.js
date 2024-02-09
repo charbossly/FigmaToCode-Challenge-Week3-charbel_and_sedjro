@@ -7,7 +7,9 @@ export default {
       t16: "16px",
       t18: "18px",
       t24: "24px",
+      t32: "32px",
       t48: "48px",
+      
     },
 
     extend: {
