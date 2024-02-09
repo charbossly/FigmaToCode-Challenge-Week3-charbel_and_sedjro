@@ -6,9 +6,10 @@ import Header from "../components/sections/header";
 export default function Root() {
   return (
     <div className="min-h-screen">
-      <Header />
+      {/*<Header />*/}
       <Outlet />
       <Footer />
+      
     </div>
   );
 }
