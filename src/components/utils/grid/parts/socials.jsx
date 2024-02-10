@@ -21,7 +21,10 @@ export default function socials() {
       {socialsList.map((elt) => {
         return (
           <>
-            <a href="#" className="hidden lg:block">
+            <a
+              href="#"
+              className="hidden lg:block hover:scale-150 transition-all duration-200 ease-in"
+            >
               <img src={elt.image} alt="" />
             </a>
             <a href="#" className="block lg:hidden">

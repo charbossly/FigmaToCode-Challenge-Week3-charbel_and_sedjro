@@ -2,8 +2,13 @@ import React from "react";
 
 export default function footerBottom() {
   return (
-    <div class="max-w-screen-lg mx-auto  text-t14 text-blueUi font-bold py-8 text-left">
-      <p>Made With Love By Finland All Right Reserved</p>
+    <div className=" bg-lightGrayUi">
+      <div className="max-w-screen-lg mx-auto  text-t14 text-grayUi font-bold py-8 text-center  lg:w-auto lg:text-left">
+        <p>
+          Made With Love By <br className="block lg:hidden" /> Finland All Right
+          Reserved
+        </p>
+      </div>
     </div>
   );
 }
