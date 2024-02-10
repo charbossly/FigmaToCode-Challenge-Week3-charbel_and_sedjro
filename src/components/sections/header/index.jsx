@@ -7,9 +7,10 @@ export default function index() {
       title: "Home",
       route: "/",
     },
-    { title: "Product", route: "/products" },
+    { title: "Product", route: "/team" },
     { title: "Pricing", route: "/pricing" },
-    { title: "Contact", route: "/about" },
+    { title: "A propos", route: "/about" },
+    { title: "Contact", route: "/contact" },
   ];
   return (
     <div className="max-w-screen-lg mx-auto flex gap-x-4 items-center p-4 py-8">

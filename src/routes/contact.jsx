@@ -15,7 +15,7 @@ import images from "../constants/images";
 import Faq from "../components/sections/faq";
 import Sponsors from "../components/sections/sponsors";
 
-export default function about() {
+export default function contact() {
   return (
     <div>
       <Hero
@@ -27,41 +27,12 @@ export default function about() {
         button_title={"Get Quote Now"}
         image={images.AboutPresentation}
       />
-      <ProblemsTrying />
-      {/* <TitlePage
-        title={"Simple Pricing"}
-        subtitle={"PRICING"}
-        source={{ title: "Home", link: "/" }}
-        destination={{ title: "Pricing", link: "/" }}
-      /> */}
-      <Stats />
-      <Video />
       <Team
-        title={"Meet our team"}
-        description={
-          "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
-        }
+        title={"Meet Our Team"}
+        description={"We help small businesses with bid ideas"}
       />
-      <OurTeam />
-      <Team
-        title={"Big Companies are there"}
-        description={
-          "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
-        }
-      />
-      <Sponsors />
-      <WorkWithUs />
-
-      {/*       
-      <Price />
-
       <Adress />
-      <Gallery />
-      
-
       <FreeTrial />
-
-      <Faq /> */}
     </div>
   );
 }

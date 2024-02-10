@@ -4,12 +4,15 @@ import "./index.css";
 import Root from "./routes/root.jsx";
 import Index from "./routes/index.jsx";
 import About from "./routes/about";
+import Contact from "./routes/contact";
 
 import {
   createBrowserRouter,
   redirect,
   RouterProvider,
 } from "react-router-dom";
+import Pricing from "./routes/pricing";
+import Team from "./components/sections/team";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +27,18 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/pricing",
+        element: <Pricing />,
+      },
+      {
+        path: "/team",
+        element: <Team />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },

@@ -15,53 +15,29 @@ import images from "../constants/images";
 import Faq from "../components/sections/faq";
 import Sponsors from "../components/sections/sponsors";
 
-export default function about() {
+export default function () {
   return (
     <div>
-      <Hero
-        title={"ABOUT US"}
-        subtitle={"ABOUT COMPANY"}
-        description={
-          "We know how large objects will act, but things on a small scale"
-        }
-        button_title={"Get Quote Now"}
-        image={images.AboutPresentation}
-      />
-      <ProblemsTrying />
-      {/* <TitlePage
+      <TitlePage
         title={"Simple Pricing"}
         subtitle={"PRICING"}
         source={{ title: "Home", link: "/" }}
         destination={{ title: "Pricing", link: "/" }}
-      /> */}
-      <Stats />
-      <Video />
+      />
+      <Pricing />
       <Team
         title={"Meet our team"}
-        description={
-          "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
-        }
-      />
-      <OurTeam />
-      <Team
-        title={"Big Companies are there"}
-        description={
-          "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
-        }
+        description={"Treat over by 4000 bigs companies "}
       />
       <Sponsors />
-      <WorkWithUs />
-
-      {/*       
-      <Price />
-
-      <Adress />
-      <Gallery />
-      
-
+      <Team
+        title={"Pricing FAQ"}
+        description={
+          "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
+        }
+      />
+      <Faq />
       <FreeTrial />
-
-      <Faq /> */}
     </div>
   );
 }

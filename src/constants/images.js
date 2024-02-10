@@ -24,6 +24,12 @@ import Check from "/images/check.png";
 import Telephone from "/images/telephone.png";
 import Messagerie from "/images/messagerie.png";
 import Map from "/images/map.png";
+import Sponsor1 from "/images/sponsor1.png";
+import Sponsor2 from "/images/sponsor2.png";
+import Sponsor3 from "/images/sponsor3.png";
+import Sponsor4 from "/images/sponsor4.png";
+import Sponsor5 from "/images/sponsor5.png";
+import Sponsor6 from "/images/sponsor6.png";
 
 export default {
   Team1,
@@ -52,4 +58,10 @@ export default {
   Map,
   Messagerie,
   Telephone,
+  Sponsor1,
+  Sponsor2,
+  Sponsor3,
+  Sponsor4,
+  Sponsor5,
+  Sponsor6,
 };
