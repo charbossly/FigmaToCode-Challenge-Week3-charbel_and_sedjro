@@ -7,9 +7,10 @@ import OurTeam from "../components/sections/callToAction/our_team";
 import Video from "../components/sections/medias/video";
 import FreeTrial from "../components/sections/callToAction/freeTrial";
 import ProblemsTrying from "../components/sections/infos/problems_trying";
+
 import Hero from "../components/sections/hero";
 import TitlePage from "../components/sections/titlePage";
-import Gallery from "../components/sections/gallery";
+
 import Adress from "../components/sections/adress";
 import images from "../constants/images";
 import Faq from "../components/sections/faq";
@@ -17,8 +18,7 @@ import Faq from "../components/sections/faq";
 export default function about() {
   return (
     <div>
-      <Price />
-      <Team />
+      
       <Hero
         title={"ABOUT US"}
         subtitle={"ABOUT COMPANY"}
@@ -28,21 +28,28 @@ export default function about() {
         button_title={"Get Quote Now"}
         image={images.AboutPresentation}
       />
-      <TitlePage
+      <ProblemsTrying />
+      <Stats />
+      <Video />
+      <Team />
+      
+      
+      {/*<TitlePage
         title={"Simple Pricing"}
         subtitle={"PRICING"}
         source={{ title: "Home", link: "/" }}
         destination={{ title: "Pricing", link: "/" }}
-      />
-      <Adress />
-      <Gallery />
-      <WorkWithUs />
-      <Stats />
+      />*/}
+      
+      
+      
+      
       <OurTeam />
-      <Video />
+      
       <FreeTrial />
-      <ProblemsTrying />
-      <Faq />
+      <WorkWithUs />
+      
+     
     </div>
   );
 }
