@@ -5,6 +5,8 @@ import Root from "./routes/root.jsx";
 import Index from "./routes/index.jsx";
 import About from "./routes/about";
 import Contact from "./routes/contact";
+import Career from "./routes/careers";
+import WeAReHiring from "./routes/wearehiring";
 
 import {
   createBrowserRouter,
@@ -40,6 +42,14 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/carrers",
+        element: <Career />,
+      },
+      {
+        path: "/wearehiring",
+        element: <WeAReHiring />,
       },
     ],
   },
