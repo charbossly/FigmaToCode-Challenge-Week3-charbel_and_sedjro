@@ -14,7 +14,7 @@ export default function index() {
     },
   ];
   return (
-    <div className="max-w-screen-lg mx-auto  gap-8 lg:gap-0.5 p-4 lg:p-0  flex  flex-col lg:flex-row justify-center lg:items-end lg:h-[700px]">
+    <div className="max-w-screen-lg mx-auto  gap-8 lg:gap-0.5 mb-24 lg:p-0  flex  flex-col lg:flex-row justify-center lg:items-end lg:h-[700px]">
       {adresses.map((addr, index) => {
         return (
           <div
@@ -47,7 +47,7 @@ export default function index() {
               Get Support
             </p>
 
-            <button className="p-3 px-16 rounded-3xl  border border-blueUi text-blueUi text-center bg-transparent  text-t18">
+            <button className="p-3 px-16 rounded-3xl  border hover:bg-blueUi hover:text-white border-blueUi text-blueUi text-center bg-transparent  text-t18">
               Submit Request
             </button>
           </div>

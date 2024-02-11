@@ -27,7 +27,13 @@ export default function team() {
       <Gallery />
       <Team title={"Meet Our Team"} description={""} />
       <OurTeam />
-      <FreeTrial />
+      <FreeTrial
+        title={"Start your 14 days free trial"}
+        subtitle={
+          "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.RELIT official consequent."
+        }
+        icon={false}
+      />
     </div>
   );
 }

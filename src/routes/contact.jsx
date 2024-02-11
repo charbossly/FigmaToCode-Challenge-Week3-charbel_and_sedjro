@@ -19,7 +19,7 @@ export default function contact() {
   return (
     <div>
       <Hero
-        title={"Get in touchtoday!"}
+        title={"Get in touch today!"}
         subtitle={"CONTACT US"}
         description={
           "We know how large objects will act, but things on a small scale"
@@ -32,7 +32,11 @@ export default function contact() {
         description={"We help small businesses with bid ideas"}
       />
       <Adress />
-      <FreeTrial />
+      <FreeTrial
+        title={"Let's Talk"}
+        icon={true}
+        subtitle={"WE Can't Wait to meet YOU"}
+      />
     </div>
   );
 }

@@ -50,7 +50,13 @@ export default function () {
         />
       </div>
 
-      <FreeTrial />
+      <FreeTrial
+        title={"Start your 14 days free trial"}
+        subtitle={
+          "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.RELIT official consequent."
+        }
+        icon={false}
+      />
     </div>
   );
 }

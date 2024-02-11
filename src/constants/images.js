@@ -36,7 +36,7 @@ import Search from "/images/search2.png";
 import Cart from "/images/cart.png";
 import Menu from "/images/menu.png";
 import Error from "/images/Error.svg";
-
+import Arrow2 from "/images/Arrow2.png";
 export default {
   Team1,
   Team2,
@@ -76,4 +76,5 @@ export default {
   Search,
   Error,
   contactPresentation,
+  Arrow2,
 };
