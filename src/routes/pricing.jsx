@@ -23,7 +23,7 @@ export default function () {
         title={"Simple Pricing"}
         subtitle={"PRICING"}
         source={{ title: "Home", link: "/" }}
-        destination={{ title: "Pricing", link: "/" }}
+        destination={{ title: "Pricing", link: "/pricing" }}
       />
       <div className="bg-lightGrayUi py-12">
         <Team

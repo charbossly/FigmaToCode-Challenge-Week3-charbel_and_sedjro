@@ -22,7 +22,7 @@ export default function career() {
         title={"Careers"}
         subtitle={"Your Careers"}
         source={{ title: "Home", link: "/" }}
-        destination={{ title: "Careers", link: "/" }}
+        destination={{ title: "Careers", link: "/carrers" }}
       />
       <Team
         title={"Meet Our Team"}

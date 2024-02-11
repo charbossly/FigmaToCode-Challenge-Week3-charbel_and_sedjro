@@ -4,24 +4,87 @@ export default function footerTop() {
   const links = [
     {
       title: "Company Info",
-      links: ["About Us", "Carrier", "We are hiring", "Blog"],
+      links: [
+        {
+          name: "About Us",
+          li: "/about",
+        },
+        {
+          name: "Carrier",
+          li: "carrers",
+        },
+        {
+          name: "We are hiring",
+          li: "/wearehiring",
+        },
+        {
+          name: "Blog",
+          li: "/",
+        },
+      ],
     },
     {
       title: "Legal",
-      links: ["About Us", "Carrier", "We are hiring", "Blog"],
+      links: [
+        {
+          name: "About Us",
+          li: "/about",
+        },
+        {
+          name: "Carrier",
+          li: "carrers",
+        },
+        {
+          name: "We are hiring",
+          li: "/wearehiring",
+        },
+        {
+          name: "Blog",
+          li: "/",
+        },
+      ],
     },
     {
       title: "Features",
       links: [
-        "Business Marketing",
-        "User Analytic",
-        "Live Chat",
-        "Unlimited Support",
+        {
+          name: "Business Marketing",
+          li: "",
+        },
+        {
+          name: "User Analytic",
+          li: "",
+        },
+        {
+          name: "Live Chat",
+          li: "",
+        },
+        {
+          name: "Unlimited Support",
+          li: "",
+        },
       ],
     },
     {
       title: "Resources",
-      links: ["IOS & Android", "Watch a Demo", "Customers", "API"],
+      links: [
+        {
+          name: "IOS & Android",
+          li: "",
+        },
+        {
+          name: "Watch a Demo",
+          li: "",
+        },
+        {
+          name: "Customers",
+          li: "",
+        },
+        {
+          name: "API",
+          li: "",
+        },
+      ],
     },
     {
       title: "Get In Touch",
@@ -54,7 +117,7 @@ export default function footerTop() {
                         key={idx}
                         className="font-normal cursor-pointer my-4 hover:text-blueUi"
                       >
-                        {li}
+                        <a href={li.li}>{li.name}</a>
                       </li>
                     );
                   })}

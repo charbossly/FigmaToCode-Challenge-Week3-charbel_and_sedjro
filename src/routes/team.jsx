@@ -22,7 +22,7 @@ export default function team() {
         title={"Innovation Tailored for you"}
         subtitle={"WHAT WE DO"}
         source={{ title: "Home", link: "/" }}
-        destination={{ title: "Team", link: "/" }}
+        destination={{ title: "Team", link: "/team" }}
       />
       <Gallery />
       <Team title={"Meet Our Team"} description={""} />
