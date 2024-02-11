@@ -14,6 +14,7 @@ export default {
       t42: "42px",
       t48: "48px",
       t50: "50px",
+      t55: "55px",
     },
 
     extend: {

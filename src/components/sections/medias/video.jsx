@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function video() {
   const [autoplay, setautoplay] = useState(true);
   return (
-    <div className="max-w-screen-lg mx-auto relative w-[90%] lg:w-[989px] lg:h-[540px] my-10">
+    <div className="max-w-screen-lg mx-auto relative w-[90%] lg:w-[989px] lg:h-[540px] my-28">
       <video
         src={videos.Video}
         className="rounded-xl"

@@ -14,6 +14,7 @@ import Adress from "../components/sections/adress";
 import images from "../constants/images";
 import Faq from "../components/sections/faq";
 import Sponsors from "../components/sections/sponsors";
+import Pricing from "../components/sections/price";
 
 export default function () {
   return (
@@ -24,19 +25,31 @@ export default function () {
         source={{ title: "Home", link: "/" }}
         destination={{ title: "Pricing", link: "/" }}
       />
-      <Pricing />
-      <Team
-        title={"Meet our team"}
-        description={"Treat over by 4000 bigs companies "}
-      />
-      <Sponsors />
-      <Team
-        title={"Pricing FAQ"}
-        description={
-          "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
-        }
-      />
-      <Faq />
+      <div className="bg-lightGrayUi py-12">
+        <Team
+          title={"Pricing"}
+          description={
+            "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
+          }
+        />{" "}
+        <Pricing />
+        <Team title={""} description={"Treat over by 4000 bigs companies "} />
+        <Sponsors />
+      </div>
+      <div className="my-24">
+        <Team
+          title={"Pricing FAQ"}
+          description={
+            "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
+          }
+        />
+        <Faq />
+        <Team
+          title={""}
+          description={"Haven't you got your answer ? Contact your support "}
+        />
+      </div>
+
       <FreeTrial />
     </div>
   );

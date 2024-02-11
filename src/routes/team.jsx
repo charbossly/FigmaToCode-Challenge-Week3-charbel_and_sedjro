@@ -3,7 +3,7 @@ import Price from "../components/sections/price";
 import Team from "../components/sections/team";
 import WorkWithUs from "../components/sections/callToAction/work_with_us";
 import Stats from "../components/sections/stats";
-import OurTeam from "../components/sections/callToAction/our_team";
+import OurTeam from "../components/sections/callToAction/our_team2";
 import Video from "../components/sections/medias/video";
 import FreeTrial from "../components/sections/callToAction/freeTrial";
 import ProblemsTrying from "../components/sections/infos/problems_trying";

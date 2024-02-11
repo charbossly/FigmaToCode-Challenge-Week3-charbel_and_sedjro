@@ -43,13 +43,17 @@ export default function about() {
         }
       />
       <OurTeam />
-      <Team
-        title={"Big Companies are there"}
-        description={
-          "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
-        }
-      />
-      <Sponsors />
+      <div className="bg-lightGrayUi py-8">
+        <Team
+          title={"Big Companies are there"}
+          description={
+            "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
+          }
+        />
+        <div className="my-20 lg:my-16">
+          <Sponsors />
+        </div>
+      </div>
       <WorkWithUs />
 
       {/*       

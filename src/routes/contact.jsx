@@ -19,13 +19,13 @@ export default function contact() {
   return (
     <div>
       <Hero
-        title={"ABOUT US"}
-        subtitle={"ABOUT COMPANY"}
+        title={"Get in touchtoday!"}
+        subtitle={"CONTACT US"}
         description={
           "We know how large objects will act, but things on a small scale"
         }
         button_title={"Get Quote Now"}
-        image={images.AboutPresentation}
+        image={images.contactPresentation}
       />
       <Team
         title={"Meet Our Team"}

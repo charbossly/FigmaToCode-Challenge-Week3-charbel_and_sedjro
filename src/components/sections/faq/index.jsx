@@ -4,15 +4,8 @@ import FaqCard from "./parts/faq_card";
 
 const Faq = () => {
   return (
-    <div className="max-w-screen-lg  mx-auto">
-      <div className="mx-auto px-24 lg:p-0 lg:w-[607px] lg:h-[120px] flex items-center justify-center">
-        <Text
-          title="Pricing FAQs"
-          paragraph="Problems trying to resolve the conflict between 
-                the two major realms of Classical physics"
-        />
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 gap-x-8 space-y-4">
+    <div className="max-w-screen-lg  mx-auto px-16 py-12 lg:py-0">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 gap-y-16 gap-x-36 space-y-4 my-16">
         <FaqCard
           title="the quick fox jumps over the lazy dog"
           paragraph="Met minim Mollie non desert Alamo est sit cliquey 

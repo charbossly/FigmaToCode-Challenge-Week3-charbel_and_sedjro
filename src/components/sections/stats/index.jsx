@@ -6,16 +6,16 @@ const Stats = () => {
     <div className="max-w-screen-lg mx-auto">
       <div className="flex flex-col lg:flex-row  justify-center items-center">
         <div className=" w-full md:w-1/4 p-4  ">
-          <StatsComponents number="15K" text="Happy Customers" />
+          <StatsComponents number="15" text="Happy Customers" unit="K" />
         </div>
         <div className=" w-full md:w-1/4 p-4 ">
-          <StatsComponents number="150K" text="Monthly Visitors" />
+          <StatsComponents number="150" text="Monthly Visitors" unit="K" />
         </div>
         <div className=" w-full md:w-1/4 p-4 ">
           <StatsComponents number="15" text="Countries worldwide" />
         </div>
         <div className=" w-full md:w-1/4 p-4 ">
-          <StatsComponents number="100+" text="Partners" />
+          <StatsComponents number="100" text="Partners" unit="+" />
         </div>
       </div>
     </div>

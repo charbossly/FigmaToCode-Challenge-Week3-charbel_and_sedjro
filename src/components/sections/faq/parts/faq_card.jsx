@@ -20,7 +20,7 @@ const FaqCard = ({ title, paragraph }) => {
             <path d="M12 5l7 7-7 7"></path>
           </svg>
         </div>
-        <div>
+        <div className="">
           <h5 className="text-blackUi text-t16 font-bold capitalize">
             {title}
           </h5>

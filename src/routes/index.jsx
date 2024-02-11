@@ -6,10 +6,7 @@ import ButtonBlue from "../components/utils/buttons/button_blue";
 export default function index() {
   return (
     <>
-      <p>Home</p>
-      {/* <Grid3 />
-      <WorkWithUs /> */}
-      {/* <ButtonBlue title="Become member" icon={true} /> */}
+      
     </>
   );
 }

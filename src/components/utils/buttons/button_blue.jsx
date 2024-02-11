@@ -5,7 +5,7 @@ export default function button_blue({ title, icon, textcolor, color }) {
   return (
     <a
       href="#"
-      className={`px-6 flex py-3 justify-center items-center gap-x-5  rounded-lg  ${
+      className={`hover:bg-blackBlueUi px-6 flex py-3 justify-center items-center gap-x-5  rounded-lg  ${
         color ? ` bg-${color}` : " bg-blueUi"
       } ${textcolor ? ` text-${textcolor}` : "text-white"} `}
     >

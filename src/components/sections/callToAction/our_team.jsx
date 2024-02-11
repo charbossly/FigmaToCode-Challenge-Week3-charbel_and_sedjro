@@ -7,17 +7,17 @@ export default function our_team() {
     {
       title: "username",
       position: "Profession",
-      image: images.Team1,
+      image: images.Team6,
     },
     {
       title: "username",
       position: "Profession",
-      image: images.Team2,
+      image: images.Team5,
     },
     {
       title: "username",
       position: "Profession",
-      image: images.Team3,
+      image: images.Team4,
     },
     // {
     //   title: "username",

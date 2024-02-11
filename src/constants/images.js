@@ -4,6 +4,7 @@ import Team3 from "/images/team-1-user-3.jpg";
 import Team4 from "/images/team-1-user-1b.jpg";
 import Team5 from "/images/team-1-user-2a.jpg";
 import Team6 from "/images/team-1-user-3c.jpg";
+import Team7 from "/images/team7.png";
 import Instagram from "/images/instagram.png";
 import Twitter from "/images/twitter.png";
 import Facebook from "/images/facebook.png";
@@ -14,6 +15,7 @@ import Arrow from "/images/arrow.png";
 import Play from "/images/icnplayicn-sm.png";
 import Breadcrumb from "/images/breadcrumb.png";
 import AboutPresentation from "/images/aboutPresentation.png";
+import contactPresentation from "/images/contactPresentation.png";
 import Gal1 from "/images/gal1.png";
 import Gal2 from "/images/gal2.png";
 import Gal3 from "/images/gal3.png";
@@ -30,6 +32,10 @@ import Sponsor3 from "/images/sponsor3.png";
 import Sponsor4 from "/images/sponsor4.png";
 import Sponsor5 from "/images/sponsor5.png";
 import Sponsor6 from "/images/sponsor6.png";
+import Search from "/images/search2.png";
+import Cart from "/images/cart.png";
+import Menu from "/images/menu.png";
+import Error from "/images/Error.svg";
 
 export default {
   Team1,
@@ -38,6 +44,7 @@ export default {
   Team4,
   Team5,
   Team6,
+  Team7,
   Instagram,
   Twitter,
   Facebook,
@@ -64,4 +71,9 @@ export default {
   Sponsor4,
   Sponsor5,
   Sponsor6,
+  Cart,
+  Menu,
+  Search,
+  Error,
+  contactPresentation,
 };

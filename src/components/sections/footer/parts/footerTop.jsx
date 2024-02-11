@@ -29,14 +29,14 @@ export default function footerTop() {
   ];
   return (
     <>
-      <div className="max-w-screen-lg mx-auto py-16 px-4 lg:px-0 lg:pr-28 flex flex-col items-start lg:flex-row lg:justify-between">
+      <div className="max-w-screen-lg mx-auto py-16 gap-y-6 px-4 lg:px-4 lg:pr-28 flex flex-col items-start lg:flex-row lg:justify-between">
         <h2 className="text-blackUi font-bold capitalize text-t24  mt-4 lg:mt-0">
           Bandage
         </h2>
         <Socials />
       </div>
       <hr className="max-w-screen-lg mx-auto w-full" />
-      <div className="max-w-screen-lg mx-auto lg:grid  p-6 lg:p-0 lg:grid-cols-6 gap-x-4 bg-white m-8">
+      <div className="max-w-screen-lg mx-auto lg:grid  p-6 lg:p-4 lg:grid-cols-6 gap-x-4 bg-white m-8">
         {links.map((link, index) => {
           return (
             <div

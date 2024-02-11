@@ -11,14 +11,15 @@ import {
   redirect,
   RouterProvider,
 } from "react-router-dom";
+import Team from "./routes/team";
+import ErrorPage from "./routes/NotFound";
 import Pricing from "./routes/pricing";
-import Team from "./components/sections/team";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    //errorElement: <ErrorPage />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",

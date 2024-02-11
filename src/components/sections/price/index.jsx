@@ -27,7 +27,7 @@ export default function index() {
   return (
     <div>
       <TopPrice />
-      <div className="max-w-screen-lg mx-auto  gap-8 lg:gap-0.5 p-4 lg:p-0  flex  flex-col lg:flex-row justify-center lg:items-end lg:h-[700px]">
+      <div className="max-w-screen-lg mx-auto my-6 mb-16 gap-8 lg:gap-0.5 p-4 lg:p-0  flex  flex-col lg:flex-row justify-center lg:items-end lg:h-[700px]">
         {cardList.map((offer, index) => {
           return (
             <div

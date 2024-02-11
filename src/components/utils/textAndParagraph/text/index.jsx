@@ -4,10 +4,10 @@ const Text = ({ title, paragraph }) => {
   return (
     <div>
       <div className="text-center">
-        <div className="text-blackUi text-t32 font-bold capitalize">
+        <div className="text-blackUi text-t32 font-bold capitalize my-4">
           {title}
         </div>
-        <div className="font-montserrat text-xl leading-6 tracking-wide text-center">
+        <div className="font-montserrat text-xl leading-6 tracking-wide text-center my-4">
           {paragraph}
         </div>
       </div>
