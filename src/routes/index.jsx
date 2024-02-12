@@ -51,7 +51,7 @@ export default function index() {
             "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
           }
         />
-        <div className="my-20 lg:my-16">
+        <div className="my-28 lg:my-16">
           <Sponsors />
         </div>
       </div>
